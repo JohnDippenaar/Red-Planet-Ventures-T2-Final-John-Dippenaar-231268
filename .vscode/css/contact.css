@@ -1,0 +1,310 @@
+body {
+  font-family: poppins;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.topNav {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 32px;
+  border-left: 20px;
+  padding-left: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.topNav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNavRight {
+  padding-left: 40%;
+  padding-top: 15px;
+}
+
+.topNav a:hover {
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: black;
+  opacity: 0.6;
+}
+
+.topNav a.active {
+  color: #e61729;
+  padding-top: 17px;
+}
+.topNavSearch {
+  padding-left: 420px;
+  border-radius: 32px;
+  margin-right: 80px;
+}
+
+.navTextfield {
+  width: 360px;
+  height: 55px;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: roboto;
+  font-size: large;
+}
+
+.imgTextOverlay {
+  width: 100%;
+  height: 400px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/headerbackBack.png");
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.LocalFont h1 {
+  font-family: "Porter Sans Block";
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.LocalFont {
+  margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  margin-top: 100px;
+}
+
+.contactMiddleSection {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.contactMiddleText {
+  width: 600px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.contactMiddleText p {
+  color: #324d9a;
+  font-weight: 500;
+}
+
+.contactMiddleImage {
+  width: 600px;
+  height: 600px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/contactImage.png");
+  background-size: cover;
+}
+
+.contactSocialsSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.contactSocials {
+  width: 550px;
+  height: 500px;
+  margin-right: 50px;
+}
+.visitUs {
+  margin-top: 45px;
+  color: #324d9a;
+  font-weight: 500;
+}
+.location {
+  margin-top: -20px;
+}
+
+.contactSocialIconsRow {
+  width: 550px;
+  height: 74px;
+  display: flex;
+}
+
+.contactSocialImage1 {
+  width: 74px;
+  height: 74px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/smInstagram.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+.contactSocialImage2 {
+  width: 74px;
+  height: 74px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/smX.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+.contactSocialImage3 {
+  width: 74px;
+  height: 74px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/smTicktock.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+.contactSocialImage4 {
+  width: 74px;
+  height: 74px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/smFacebook.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.contactForm {
+  width: 550px;
+  background-color: red;
+  padding-right: 40px;
+  margin-left: 40px;
+  padding-top: 25px;
+  border-radius: 25px;
+  background-image: url("../Red\ Planet\ Ventures/Assets/Images/formBack.png");
+  background-size: cover;
+}
+.contactFormStyle {
+  margin-left: 90px;
+}
+
+.contactFormStyle h1 {
+  color: white;
+}
+.contactFormStyle p {
+  color: white;
+}
+
+.contactTextfield {
+  width: 400px;
+  height: 45px;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: roboto;
+}
+
+fieldset {
+  border: none !important;
+  margin: 0 auto;
+  min-width: 100%;
+  width: 100%;
+  height: 45px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.contactTextarea {
+  height: 100px;
+  width: 400px;
+  border-radius: 10px;
+  max-width: 100%;
+  resize: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  font-family: roboto;
+}
+
+.contactFormButton {
+  width: 200px;
+  height: 55px;
+  background-color: #e61729;
+  color: white;
+  border-radius: 10px;
+  margin-top: 66px;
+  margin-bottom: 60px;
+  border-style: none;
+  font-weight: bold;
+  margin-top: 90px;
+}
+.contactFormButton a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.footerTop {
+  display: flex;
+  margin-left: 180px;
+}
+
+.footer1 {
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+
+.footerImg {
+  width: 250px;
+  height: 40px;
+  background-image: url("/Red\ Planet\ Ventures/Assets/Images/logo.png");
+  background-size: cover;
+}
+
+.footer2 {
+  width: 200px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.footer3 {
+  width: 400px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.contactSocialIconsRow {
+  width: 550px;
+  height: 50px;
+  display: flex;
+}
+
+.contactSocialImage1 {
+  width: 70px;
+  height: 70px;
+  background-image: url("/Red\ Planet\ Ventures/Assets/Images/smInstagram.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+.contactSocialImage2 {
+  width: 70px;
+  height: 70px;
+  background-image: url("/Red\ Planet\ Ventures/Assets/Images/smX.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+.contactSocialImage3 {
+  width: 70px;
+  height: 70px;
+  background-image: url("/Red\ Planet\ Ventures/Assets/Images/smTicktock.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+.contactSocialImage4 {
+  width: 70px;
+  height: 70px;
+  background-image: url("/Red\ Planet\ Ventures/Assets/Images/smFacebook.png");
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 180px;
+  padding-right: 180px;
+}

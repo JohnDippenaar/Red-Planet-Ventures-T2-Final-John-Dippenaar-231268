@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UX-Compatible" content="IE-edge">
+
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="keywords" content="HTML, CSS, Template, Bootstrap">
+    <meta name="author" content="John , Dippenaar, 231268">
+
+    <title>Red Planet Ventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/flights.css">
+    <script src="../scripts.js"></script>
+</head>
+<body> 
+
+   
+        <div class="imgTextOverlay">
+            <nav>
+                <div class="topNav">
+                    
+                    <div><a href="index.html"><img src="../Red Planet Ventures/Assets/Images/logo.png" width="250px"></a></div>
+            
+                    <div class="topNavRight">
+            
+                        <a href="../index.html">Home</a>
+                        <a class="active" href="flights.html">Flights</a>
+                        <a href="contact.html">Contact</a>
+                    
+                    <div class="topNavSearch">
+                         <fieldset>
+                            <input class="navTextfield" placeholder="Search" type="text" tabindex="1" required>
+                        </fieldset>
+                        </div>
+                    </div>
+            </nav>
+            
+            <div class="LocalFont">
+            <h1> BOOK A FLIGHT</h1>
+            </div>
+            
+        </div>
+        
+                        
+                        <div class="filterSection">
+                            <div class="filterLeft">
+                                <div class="filterLeftImage1">
+                                    <img src="../Red Planet Ventures/Assets/Images/filter.png" width="20px" height="20px">
+                                </div>
+                                <div class="filterLeftText1">
+                                    Filter
+                                </div>
+                            
+                            <div class="filterLeftImage2">
+                                <img src="../Red Planet Ventures/Assets/Images/filter2.png"
+                                width="20px" height="20px">
+                            </div>
+                            <div class="filterLeftImage3">
+                                <img src="../Red Planet Ventures/Assets/Images/filter3.png"
+                                width="20px" height="20px">
+                            </div>
+                            <div class="filterLeftLineElement">
+                                    <div class="filterLeftLine"><img src="../Red Planet Ventures/Assets/Images/filterLine.png" width="2px" height="30px">
+                                        </div>
+                                    </div>
+                                    <div class="filterLeftText2">
+                                      Showing 1-16 of 32 results
+                                    </div>
+                                    
+                                </div> </div>
+                            </div>
+                            <div class="filterRight">
+                                <div class="filterRightText1">
+                                    Show
+                                </div>
+                            
+                                <div class="box1">
+                                    <a class="filterRightText2">6</a>
+                                </div>
+                                <div class="filterRightText3">
+                                    Short by
+                                </div>
+                            
+                                <div class="box2">
+                                    <a class="filterRightText4">Default</a>
+                                </div>
+                                
+                            </div>  
+                        </div>
+                            
+                        <div style="height: 50px;"></div>
+                        <!-- No.1 -->
+                        <div class="flightCardItem">
+                            <div class="flightCardImage1"></div>
+                            <div class="flightCardDetails">
+                                <h1>The Classic Mars Experience</h1>
+                                <h3 style="color: #B7B7B7;">R25,000.00</h3>
+
+                                <div class="flightCardRating">
+                                    <div class="stars"></div>
+                                    <div class="flightSeporate"></div>
+                                    <p style="color: #B7B7B7; margin-top: 2px;">36 Customer Reviews</p>
+                                </div>
+
+                                <h3>
+                                    Embark on a Mars vacation: red deserts, ancient relics, and towering 
+                                    canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons, and 
+                                    stargazing under Phobos and Deimos. Unforgettable adventures beckon 
+                                    on the rust-colored landscapes of the Red Planet.
+                                </h3>
+
+                                <div class="flightCardCheckoutGroup">
+                                    <div class="flightQuantity"  class="stepper-input">
+                                       <button class="btn btn-left" onclick="decreaseMars(); total()">-</button>
+                                       <input type="text" value="0" class="input-box" id="ticketsMars" onchange="total()">
+                                      <button class="btn btn-right" onclick="increaseMars(); total()">+</button>
+                                    </div>
+                                    <div><button class="flightBook"><a href="">Book now</a></button></div>
+                                </div>
+
+                                <div class="seporatorLine"></div>
+
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">SKU</div>
+                                    <div class="flightCardDetailsGroupRight">:  SS001</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Shuffle</div>
+                                    <div class="flightCardDetailsGroupRight">: The Opulence</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Tags</div>
+                                    <div class="flightCardDetailsGroupRight">:  Mars, Luxury, Sale</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Date</div>
+                                    <div class="flightCardDetailsGroupRight">:  16 June - 19 July</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- No.2 -->
+                        <div class="flightCardItem" style="background-color: #3e1d64;">
+                            <div class="flightCardImage2"></div>
+                            <div class="flightCardDetails">
+                                <h1 style="color: white;">Neptune’s Cosmic Dive</h1>
+                                <h3 style="color: #324D9A;">R45,000.00</h3>
+
+                                <div class="flightCardRating">
+                                    <div class="stars"></div>
+                                    <div class="flightSeporate"></div>
+                                    <p style="color: #B7B7B7; margin-top: 2px;">24 Customer Reviews</p>
+                                </div>
+
+                                <h3 style="color: white;">
+                                    Embark on a voyage to Neptune aboard the "Neptune Voyager." Witness 
+                                    surreal vistas of swirling clouds and rings. Experience weightlessness and 
+                                    explore frigid oceans. Engage in thrilling spacewalks, observe celestial 
+                                    phenomena, and savor gourmet space cuisine. An unforgettable 
+                                    adventure awaits, blending luxury with cosmic exploration.
+                                </h3>
+
+                                <div class="flightCardCheckoutGroup">
+                                    <div class="flightQuantity" 
+                                        class="stepper-input">
+                                       <button class="btn2 btn-left" onclick="decreaseNeptune(); total()">-</button>
+                                       <input type="text" value="0" class="input-box2" id="ticketsNeptune" onchange="total()">
+                                      <button class="btn2 btn-right" onclick="increaseNeptune(); total()">+</button>
+                                    </div>
+                                    <div><button class="flightBook"><a href="">Book now</a></button></div>
+                                </div>
+
+                                <div class="seporatorLine"></div>
+
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">SKU</div>
+                                    <div class="flightCardDetailsGroupRight">:  SS405</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Shuffle</div>
+                                    <div class="flightCardDetailsGroupRight">:  The Voyage</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Tags</div>
+                                    <div class="flightCardDetailsGroupRight">:  Neptune, Commercial, Gourmet Experience</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Date</div>
+                                    <div class="flightCardDetailsGroupRight">:  4 April - 28 March</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- No.3 -->
+                        <div class="flightCardItem">
+                            <div class="flightCardImage3"></div>
+                            <div class="flightCardDetails">
+                                <h1>The  Giant’s  Journey</h1>
+                                <h3 style="color: #B7B7B7;">R65,000.00</h3>
+
+                                <div class="flightCardRating">
+                                    <div class="stars"></div>
+                                    <div class="flightSeporate"></div>
+                                    <p style="color: #B7B7B7; margin-top: 2px;">48 Customer Reviews</p>
+                                </div>
+
+                                <h3>
+                                    Embark on a Jupiter voyage aboard the "Jupiter Odyssey." Witness its 
+                                    majestic storms and swirling atmosphere. Dive into metallic hydrogen 
+                                    oceans. Explore its moons, each a world unto itself. Engage in gravity 
+                                    surfing, comet chasing, and space excursions. Experience cosmic wonder 
+                                    in luxury, blending exploration with adventure.
+                                </h3>
+
+                                <div class="flightCardCheckoutGroup">
+                                    <div class="flightQuantity" class="stepper-input">
+                                       <button class="btn btn-left" onclick="decreaseJupiter(); total()">-</button>
+                                       <input type="text" value="0" class="input-box" id="ticketsJupiter" onchange="total()">
+                                      <button class="btn btn-right" onclick="increaseJupiter(); total()">+</button>
+                                    
+                                    </div>
+                                    <div><button class="flightBook"><a href="">Book now</a></button></div>
+                                </div>
+
+                                <div class="seporatorLine"></div>
+
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">SKU</div>
+                                    <div class="flightCardDetailsGroupRight">:  SS606</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Shuffle</div>
+                                    <div class="flightCardDetailsGroupRight">:  The Odyssey</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Tags</div>
+                                    <div class="flightCardDetailsGroupRight">:  Jupiter, Luxury, Adventure</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Date</div>
+                                    <div class="flightCardDetailsGroupRight">:  15 June - 30 July</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- No.4 -->
+                         <div class="flightCardItem" style="background-color: #3e1d64;">
+                            <div class="flightCardImage4"></div>
+                            <div class="flightCardDetails">
+                                <h1 style="color: white;">Ring  Around a Saturn</h1>
+                                <h3 style="color: #324D9A;">R40,000.00</h3>
+
+                                <div class="flightCardRating">
+                                    <div class="stars"></div>
+                                    <div class="flightSeporate"></div>
+                                    <p style="color: #B7B7B7; margin-top: 2px;">16 Customer Reviews</p>
+                                </div>
+
+                                <h3 style="color: white;">
+                                    Embark on a thrilling voyage to Saturn aboard the "Saturn Explorer." 
+                                    Marvel at its iconic rings and turbulent storms. Explore its diverse moons, 
+                                    from icy Enceladus to mysterious Titan, with activities including rover 
+                                    expeditions and cave exploration. Experience the wonders of the cosmos 
+                                    amidst luxurious accommodations, where the thrill of discovery 
+                                    intertwines seamlessly with the excitement of adventure.
+                                </h3>
+
+                                <div class="flightCardCheckoutGroup">
+                                    <div class="flightQuantity"  class="stepper-input">
+                                       <button class="btn2 btn-left" onclick="decreaseSaturn(); total()">-</button>
+                                       <input type="text" value="0" class="input-box2" id="ticketsSaturn" onchange="total()">
+                                      <button class="btn2 btn-right" onclick="increaseSaturn(); total()">+</button>
+                                    
+                                    </div>
+                                    <div><button class="flightBook"><a href="">Book now</a></button></div>
+                                </div>
+
+                                <div class="seporatorLine"></div>
+
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">SKU</div>
+                                    <div class="flightCardDetailsGroupRight">:  SS333</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Shuffle</div>
+                                    <div class="flightCardDetailsGroupRight">:  The Explorer</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Tags</div>
+                                    <div class="flightCardDetailsGroupRight">:  Saturn, Luxury, Adventure</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Date</div>
+                                    <div class="flightCardDetailsGroupRight">:  4 April - 28 March</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- No.5 -->
+                        <div class="flightCardItem">
+                            <div class="flightCardImage5"></div>
+                            <div class="flightCardDetails">
+                                <h1>Uranus Uncharted</h1>
+                                <h3 style="color: #B7B7B7;">R50,000.00</h3>
+
+                                <div class="flightCardRating">
+                                    <div class="stars"></div>
+                                    <div class="flightSeporate"></div>
+                                    <p style="color: #B7B7B7; margin-top: 2px;">12 Customer Reviews</p>
+                                </div>
+
+                                <h3>
+                                    Embark on a cosmic adventure to Uranus with our "Uranus Unveiled" tour. 
+                                    Explore its icy atmosphere and captivating moons. Experience thrilling 
+                                    zero-gravity excursions, witness mesmerizing auroras, and immerse 
+                                    yourself in celestial photography workshops. With luxury 
+                                    accommodations and expert guides, discover the wonders of Uranus in a 
+                                    journey of a lifetime.
+                                </h3>
+
+                                <div class="flightCardCheckoutGroup">
+                                    <div class="flightQuantity" class="stepper-input">
+                                       <button class="btn btn-left" onclick="decreaseUranus(); total()">-</button>
+                                       <input type="text" value="0" class="input-box" id="ticketsUranus" onchange="total()">
+                                      <button class="btn btn-right" onclick="increaseUranus(); total()">+</button>
+                                    
+                                    </div>
+                                    <div><button class="flightBook"><a href="">Book now</a></button></div>
+                                </div>
+
+                                <div class="seporatorLine"></div>
+
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">SKU</div>
+                                    <div class="flightCardDetailsGroupRight">:  SS735</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Shuffle</div>
+                                    <div class="flightCardDetailsGroupRight">:  The Endeavor</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Tags</div>
+                                    <div class="flightCardDetailsGroupRight">:  Uranus, Workshop, Adventure</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Date</div>
+                                    <div class="flightCardDetailsGroupRight">:  16 May - 19 July</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- No.6 -->
+        <div class="flightCardItem" style="background-color: #3e1d64;">
+                            <div class="flightCardImage6"></div>
+                            <div class="flightCardDetails">
+                                <h1 style="color: white;">Moonlight Meander</h1>
+                                <h3 style="color: #324D9A;">R15,000.00</h3>
+
+                                <div class="flightCardRating">
+                                    <div class="stars"></div>
+                                    <div class="flightSeporate"></div>
+                                    <p style="color: #B7B7B7; margin-top: 2px;">43 Customer Reviews</p>
+                                </div>
+
+                                <h3 style="color: white;">
+                                    Experience the ultimate lunar getaway with our "Moonlight Meander" 
+                                    package. Depart Earth's atmosphere aboard the "Celestial Cruiser" for a 
+                                    short but unforgettable journey to the Moon. Enjoy lunar walks, 
+                                    breathtaking views of Earthrise, and stargazing under the moon's serene 
+                                    glow. Immerse yourself in luxury accommodations amidst the tranquility 
+                                    of space.
+                                </h3>
+
+                                <div class="flightCardCheckoutGroup">
+                                    <div class="flightQuantity"  
+                                      class="stepper-input">
+                                       <button class="btn2 btn-left" onclick="decreaseMoonlight(); total()">-</button>
+                                       <input type="text" value="0" class="input-box2" id="ticketsMoonlight" onchange="total()">
+                                      <button class="btn2 btn-right" onclick="increaseMoonlight(); total()">+</button>
+                                    
+                                    </div>
+                                    <div><button class="flightBook"><a href="">Book now</a></button></div>
+                                </div>
+
+                                <div class="seporatorLine"></div>
+
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">SKU</div>
+                                    <div class="flightCardDetailsGroupRight">:  SS451</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Shuffle</div>
+                                    <div class="flightCardDetailsGroupRight">:  The Voyager</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Tags</div>
+                                    <div class="flightCardDetailsGroupRight">:  Moon, Commercial, Romantic</div>
+                                </div>
+                                <div class="flightCardDetailsGroup">
+                                    <div class="flightCardDetailsGroupLeft">Date</div>
+                                    <div class="flightCardDetailsGroupRight">:  5 August - 12 August</div>
+                                </div>
+                                <div class="button2">
+                                    <div><button class="flightBook"><a href="">View Cart</a></button></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <footer>
+                            <div class="footerTop">
+                                <div class="footer1">
+                                    <div class="footerImg"></div>
+                                    <p>
+                                        Offering unforgettable trips to explore planets in our solar system
+                                    </p>
+                                </div>
+                                <div class="footer2">
+                                    <p><strong>Company</strong></p>
+                                    <p><a href="../index.html">Home</a></p>
+                                    <p><a href="flights.html">Flights</a></p>
+                                    <p><a href="contact.html">Contact us</a></p>
+                                </div>
+                                <div class="footer3">
+                                    <p>Social media Links</p>
+                                     <div class="contactSocialIconsRow">
+                                        <a href="https://www.instagram.com/openwindowinstitute/" class="contactSocialImage1"></a>
+                                        <a href="https://x.com/open_window_" class="contactSocialImage2"></a>
+                                        <a href="https://www.tiktok.com/@open_window_?is_from_webapp=1&sender_device=pc" class="contactSocialImage3"></a>
+                                        <a href="https://www.facebook.com/theopenwindow/" class="contactSocialImage4"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footerBottom">
+                                <div><p>All Rights Reserved @ Open Window 2024</p></div>
+                                <div><p>Terms & Conditions Privacy & Policy</p></div>
+                            </div>
+                        </footer>
+       
+            </body>
+</html>
